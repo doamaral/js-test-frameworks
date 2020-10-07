@@ -1,0 +1,23 @@
+{
+  "name": "test-jest-jasmine-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:jasm": "jasmine --config=test/jasmine/spec/support/jasmine.json",
+    "test:jest": "jest ./test/jest/jest.*.js",
+    "test:mocha": "mocha --config test/mocha/.mocharc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jasmine": "^3.6.1",
+    "jest": "^26.5.2",
+    "mocha": "^8.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
